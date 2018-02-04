@@ -3,11 +3,12 @@ import java.util.ArrayList;
 public class Test {
     public static void main(String[] shit) {
 
-        // Quiz
+        // Quiz Week 1 Part 1
         EarthQuakeParser parser = new EarthQuakeParser();
         String source = "data/nov20quakedata.atom";
         ArrayList<QuakeEntry> data = parser.read(source);
 
+        /*
         EarthQuakeClient x = new EarthQuakeClient();
         int y = x.filterByDepth(data, -8_000.0, -5_000.0).size();
         int y2= x.filterByPhrase(data, "start", "Explosion").size();
@@ -15,7 +16,7 @@ public class Test {
         int y4= x.filterByPhrase(data, "any", "Creek").size();
 
         System.out.println(y + " " + y2 + " " + y3 + " " + y4);
-
+        */
         LargestQuakes z = new LargestQuakes();
         z.findLargestQuakes();
 
