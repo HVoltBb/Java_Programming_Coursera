@@ -1,5 +1,7 @@
 # Java_Programming_Coursera
-This is the course projects for Java Programming: Principles of Software Design on Coursera. This is an intermediat Java course. To learn the basics, use Introduction to Java Programming on Edx provided by Microsoft. It is the best I have ever seen.
+This is the course projects for Java Programming: Principles of Software Design on Coursera. This is an intermediat Java course. To learn the basics, use Learn to Program in Java and OOP in Java on Edx provided by Microsoft. Here are the links:
+Learn to Program in Java https://www.edx.org/course/learn-program-java-microsoft-dev276x-1
+Object Oriented Programming in Java https://www.edx.org/course/object-oriented-programming-java-microsoft-dev277x-1
 
 The files in this repository by itself won't compile. You need to provide external libraries "edu.duke" and "org.apache.commons.csv" for the code to work. These libraries can be found using a google search. 
 
